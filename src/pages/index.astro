@@ -1,17 +1,263 @@
 ---
-
+// Closer Launch Homepage
 ---
 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Closer Launch — Growth Partners for Home Service Companies</title>
+  <meta name="description" content="Closer Launch partners with ambitious home service companies ready to scale. We optimize your entire operation and build a company worth significantly more.">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#" aria-label="Closer Launch Home">
+        <img src="/images/logo-white.png" alt="Closer Launch" class="header-logo">
+      </a>
+      <a href="#waitlist" class="btn-primary">
+        Join Waitlist
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <img src="/images/logo-white.png" alt="Closer Launch" class="hero-logo">
+    <h1>We Don't Just Grow Companies.<br><span class="accent">We Build Exits.</span></h1>
+    <p class="hero-description">
+      Closer Launch partners with ambitious home service companies ready to scale — not as another vendor, but as growth partners with skin in the game. Your win is our win.
+    </p>
+    <a href="#waitlist" class="btn-primary">
+      Get on the Waitlist
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </a>
+  </section>
+
+  <!-- VALUE PROP -->
+  <section style="padding: 80px 0; background: var(--dark-secondary);">
+    <div class="container" style="max-width: 780px; text-align: center;">
+      <div class="fade-up">
+        <span class="section-label">The Partnership</span>
+        <h2 class="section-title" style="margin-bottom: 24px;">Built to Dominate Your Market</h2>
+        <p style="font-size: 18px; color: var(--text-light); line-height: 1.8;">
+          We optimize your entire operation — marketing, sales systems, technician efficiency, and customer experience — and build a company worth significantly more than it is today. We get you ready for a big payday when you exit in the near future. You get a team obsessed with your success because your win is our win. This isn't a retainer relationship. It's a partnership built to dominate your market.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGO MARQUEE -->
+  <section class="marquee-section">
+    <p class="marquee-label">Trusted By Industry Leaders</p>
+    <div class="marquee-track" id="marqueeTrack">
+      <!-- Set 1 -->
+      <div class="marquee-item"><img src="/images/client-1-white.png" alt="Client 1"></div>
+      <div class="marquee-item"><img src="/images/client-2-white.png" alt="Client 2"></div>
+      <div class="marquee-item"><img src="/images/client-3-white.png" alt="Client 3"></div>
+      <div class="marquee-item"><img src="/images/client-4-white.png" alt="Client 4"></div>
+      <div class="marquee-item"><img src="/images/client-5-white.png" alt="Client 5"></div>
+      <div class="marquee-item"><img src="/images/client-6-white.png" alt="Client 6"></div>
+      <!-- Set 2 -->
+      <div class="marquee-item"><img src="/images/client-1-white.png" alt="Client 1"></div>
+      <div class="marquee-item"><img src="/images/client-2-white.png" alt="Client 2"></div>
+      <div class="marquee-item"><img src="/images/client-3-white.png" alt="Client 3"></div>
+      <div class="marquee-item"><img src="/images/client-4-white.png" alt="Client 4"></div>
+      <div class="marquee-item"><img src="/images/client-5-white.png" alt="Client 5"></div>
+      <div class="marquee-item"><img src="/images/client-6-white.png" alt="Client 6"></div>
+      <!-- Set 3 -->
+      <div class="marquee-item"><img src="/images/client-1-white.png" alt="Client 1"></div>
+      <div class="marquee-item"><img src="/images/client-2-white.png" alt="Client 2"></div>
+      <div class="marquee-item"><img src="/images/client-3-white.png" alt="Client 3"></div>
+      <div class="marquee-item"><img src="/images/client-4-white.png" alt="Client 4"></div>
+      <div class="marquee-item"><img src="/images/client-5-white.png" alt="Client 5"></div>
+      <div class="marquee-item"><img src="/images/client-6-white.png" alt="Client 6"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="fade-up">
+        <span class="section-label">Results That Speak</span>
+        <h2 class="section-title" style="margin-bottom: 60px;">The Numbers Behind the Partnership</h2>
+      </div>
+      <div class="stats-grid fade-up" style="grid-template-columns: repeat(3, 1fr);">
+        <div class="stat-item">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">ROI in month one</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">9.7x</div>
+          <div class="stat-label">Return on ad spend</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number">493%</div>
+          <div class="stat-label">Increase in qualified leads</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="fade-up">
+        <span class="section-label">Who We Are</span>
+        <h2 class="section-title">Meet the Team</h2>
+        <p class="section-subtitle">Three partners, one mission — help home service companies scale to an exit-ready valuation.</p>
+      </div>
+      <div class="team-grid fade-up">
+        <!-- Reese -->
+        <div class="team-card">
+          <img src="/images/reese.png" alt="Reese" class="team-photo">
+          <h3 class="team-name">Reese</h3>
+          <p class="team-role">Partner</p>
+          <p class="team-bio">Reese built and managed a sales division that closed $1.1M in three months, then scaled a regional operation to $2.5M annually. At Closer Launch, he brings that same execution to your business — optimizing every system from lead generation to customer experience so you scale faster and exit bigger.</p>
+        </div>
+        <!-- Ryan -->
+        <div class="team-card">
+          <img src="/images/ryan.png" alt="Ryan" class="team-photo">
+          <h3 class="team-name">Ryan</h3>
+          <p class="team-role">Founder</p>
+          <p class="team-bio">Ryan scaled a SaaS startup to $500K ARR as VP of Sales, then bootstrapped a B2B agency to $30K/month solo before building Closer Launch. He doesn't sell retainers or promises — he creates partnerships. He teams up with ambitious home service owners and builds businesses engineered for large exits in 2–5 years. Your win is his win.</p>
+        </div>
+        <!-- Connor -->
+        <div class="team-card">
+          <img src="/images/connor.png" alt="Connor" class="team-photo">
+          <h3 class="team-name">Connor</h3>
+          <p class="team-role">Partner</p>
+          <p class="team-bio">Connor led marketing for a firm managing $115M+ in assets, attracting clients like Berkshire Hathaway and Amazon, and ran campaigns for Disney, Ford, and Honda. At Closer Launch, he brings that Fortune 500 playbook to home service companies — building the funnels, automation, and revenue systems that turn traffic into booked appointments at scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WAITLIST -->
+  <section class="waitlist-section" id="waitlist">
+    <div class="container">
+      <div class="waitlist-card fade-up">
+        <span class="section-label">Limited Partnerships Available</span>
+        <h2 class="section-title">Ready to Scale?</h2>
+        <p class="section-subtitle">Join the waitlist. We'll reach out to see if we're the right fit to take your company to the next level.</p>
+
+        <form id="waitlistForm" onsubmit="handleSubmit(event)">
+          <div class="form-group form-row">
+            <div>
+              <label class="form-label" for="firstName">First Name</label>
+              <input class="form-input" type="text" id="firstName" name="firstName" placeholder="John" required>
+            </div>
+            <div>
+              <label class="form-label" for="lastName">Last Name</label>
+              <input class="form-input" type="text" id="lastName" name="lastName" placeholder="Smith" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="john@yourcompany.com" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Phone Number</label>
+            <input class="form-input" type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="company">Company Name</label>
+            <input class="form-input" type="text" id="company" name="company" placeholder="Your Home Service Company" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="revenue">Current Annual Revenue</label>
+            <select class="form-input" id="revenue" name="revenue">
+              <option value="" disabled selected>Select range</option>
+              <option value="under-500k">Under $500K</option>
+              <option value="500k-1m">$500K – $1M</option>
+              <option value="1m-3m">$1M – $3M</option>
+              <option value="3m-5m">$3M – $5M</option>
+              <option value="5m-10m">$5M – $10M</option>
+              <option value="10m-plus">$10M+</option>
+            </select>
+          </div>
+          <button type="submit" class="btn-primary form-submit">
+            Join the Waitlist
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </button>
+          <p class="form-trust">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            No spam. No obligation. We'll only reach out if it's a fit.
+          </p>
+        </form>
+
+        <!-- Success state -->
+        <div id="formSuccess" style="display:none; text-align:center; padding: 40px 0;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto 20px;"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          <h3 style="font-family: var(--font-heading); font-size: 24px; margin-bottom: 8px;">You're on the list.</h3>
+          <p style="color: var(--text-light); font-size: 16px;">We'll be in touch soon if it's a fit. Keep building.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <img src="/images/logo-white.png" alt="Closer Launch" class="footer-logo">
+      <p class="footer-text">&copy; 2026 Closer Launch. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll effect
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 40);
+    });
+
+    // Fade-in on scroll
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // Form handling
+    function handleSubmit(e) {
+      e.preventDefault();
+      // TODO: Connect to your form backend (Cloudflare Workers, Formspree, etc.)
+      const form = document.getElementById('waitlistForm');
+      const success = document.getElementById('formSuccess');
+      form.style.display = 'none';
+      success.style.display = 'block';
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+
+</body>
 </html>
